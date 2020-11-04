@@ -17,4 +17,4 @@ RUN apt-get update -y && apt-get install -y \
     zlib1g \
     zlib1g-dev
 
-RUN pip3 install multiqc
+RUN pip3 install multiqc==1.9
