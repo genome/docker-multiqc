@@ -1,6 +1,6 @@
 FROM python:slim
 LABEL \
-    description="multi qc image"
+    description="multi qc image version 1.9"
 RUN apt-get update -y && apt-get install -y \
     build-essential \
     bzip2 \
